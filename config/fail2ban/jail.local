@@ -1,0 +1,7 @@
+[DEFAULT]
+ignoreip = 127.0.0.1/8 ::1
+bantime = 1800
+maxretry = 5
+findtime = 300
+banaction = ufw
+action = %(action_mwl)s
